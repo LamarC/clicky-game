@@ -1,26 +1,34 @@
-import React, { Component } from 'react';
-import logo from './logo.svg';
+import React, {
+  Component
+} from 'react';
+import Card from './components/Card';
 import './App.css';
 
 class App extends Component {
+
+  state = {
+    // cards
+  };
+
+  removeDog = id => {
+    //Filters through the img with and id not equal to the one being removed
+    const cards = this.state.dogs.filter((dogs) => dogs.id !== id);
+
+    //Sets the new state equal to the new array
+    this.setState({
+      cards
+    });
+  };
+
   render() {
-    return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+    return ( <
+      div className = "App" >
+      <
+      header className = "App-header" >
+
+      <
+      /header> <
+      /div>
     );
   }
 }
