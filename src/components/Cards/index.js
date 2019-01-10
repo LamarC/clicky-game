@@ -1,14 +1,14 @@
 import React from 'react';
-// import './style.css';
+// import './Cards.css';
 
 const Cards = (props) => {
     return (
-    <div className='lottoCard'>
+    <div className='card'>
         <div className='img-container'>
-            <img className='img-responsive' alt={props.name} src={props.image} onClick={() => props.clickPicture(props.id)} />      
+            <img alt={props.name} src={props.image} onClick={() => props.clickCount(props.id)} />      
         </div>
 
-        <span onClick={() => props.removeCards(props.id)} className='remove'></span>
+        {/* <span onClick={() => props.removeCards(props.id)} className='remove'></span> */}
     </div>
     );
 }
