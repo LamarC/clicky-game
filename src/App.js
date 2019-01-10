@@ -1,13 +1,14 @@
-import React, {
-  Component
-} from 'react';
-import Card from './components/Card';
-import './App.css';
+import React, { Component } from "react";
+import FriendCard from "./components/FriendCard";
+import Wrapper from "./components/Wrapper";
+import Title from "./components/Title";
+import friends from "./friends.json";
+
 
 class App extends Component {
 
   state = {
-    // cards
+    // lottoCards
   };
 
   removeDog = id => {
@@ -27,8 +28,8 @@ class App extends Component {
       header className = "App-header" >
 
       <
-      /header> <
-      /div>
+      /header> < /
+      div >
     );
   }
 }
