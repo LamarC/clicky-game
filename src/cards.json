@@ -1,62 +1,61 @@
-[
-    {
+[{
         "id": 1,
-        "name": "",
-        "image": ""
+        "name": "La Dama",
+        "image": "https://i.pinimg.com/originals/7a/c9/89/7ac989f2b068affba0be0ab5cf451104.jpg"
     },
     {
         "id": 2,
-        "name": "",
-        "image": ""
+        "name": "El Catrin",
+        "image": "https://www.welovecmyk.com/wp-content/uploads/2016/10/loteria-el-catrin-mexican-retro-illustration-art-sticker-5817b5273.jpg"
     },
     {
         "id": 3,
-        "name": "",
-        "image": ""
+        "name": "La Sandia",
+        "image": "https://i.pinimg.com/originals/e4/19/1c/e4191c1f9f6f475b52c490d678f981de.jpg"
     },
     {
         "id": 4,
-        "name": "",
-        "image": ""
+        "name": "La Sirena",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/81Sj6yp0X5L._SY500_.jpg"
     },
     {
         "id": 5,
-        "name": "",
-        "image": ""
+        "name": "El Corazon",
+        "image": "https://images-na.ssl-images-amazon.com/images/I/51HEZkA5K%2BL._SY600_.jpg"
     },
     {
         "id": 6,
-        "name": "",
-        "image": ""
+        "name": "La Bota",
+        "image": "https://i.pinimg.com/originals/85/4e/4a/854e4ac263061a49e8baa8a90b4c7e9b.jpg"
     },
     {
         "id": 7,
-        "name": "",
-        "image": ""
+        "name": "La Corona",
+        "image": "https://i.pinimg.com/originals/61/f8/f0/61f8f030e180980c45fd1af8fe62556e.jpg"
     },
     {
         "id": 8,
-        "name": "",
-        "image": ""
+        "name": "La Rosa",
+        "image": "https://i.pinimg.com/originals/0a/62/7c/0a627caeb0865f310597a0162cb47eb6.jpg"
     },
     {
         "id": 9,
-        "name": "",
-        "image": ""
+        "name": "El Valiente",
+        "image": "https://i.pinimg.com/originals/8e/4a/ce/8e4aceeeb8f3ed62aebc6a902eb71dd2.jpg"
     },
     {
         "id": 10,
-        "name": "",
-        "image": ""
+        "name": "El Camaron",
+        "image": "https://i.pinimg.com/originals/67/80/4d/67804d971049e7c5ec47fac49cebdc9e.jpg"
     },
     {
         "id": 11,
-        "name": "",
-        "image": ""
+        "name": "La Luna",
+        "image": "http://www.casa-frida.com/1946-large_default/poster-la-luna.jpg"
     },
     {
         "id": 12,
-        "name": "",
-        "image": ""
+        "name": "La Guitarra",
+        "image": "https://ih1.redbubble.net/image.250897948.4262/pp,550x550.u1.jpg"
     }
 ]
