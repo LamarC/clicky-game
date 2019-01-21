@@ -1,17 +1,17 @@
 import React, { Component } from "react";
 
-class Card extends Component {
+class Char extends Component {
 
     handleClick = () => {
-        this.props.onCharacterClick(this.props.index);
+        this.props.onCharClick(this.props.index);
     }
 
     render() {
         return (
-            <div className="card">
+            <div className="char">
                 <img
-                    src={this.props.character.img}
-                    alt={this.props.character.name}
+                    src={this.props.char.img}
+                    alt={this.props.char.name}
                     className="pic"
                     onClick={this.handleClick}/>
             </div>
@@ -19,4 +19,4 @@ class Card extends Component {
     }
 }
 
-export default Card;
+export default Char;
