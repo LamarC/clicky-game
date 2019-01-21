@@ -1,16 +1,22 @@
-import React from 'react';
-// import './Cards.css';
+import React, { Component } from "react";
 
-const Cards = (props) => {
-    return (
-    <div className='card'>
-        <div className='img-container'>
-            <img alt={props.name} src={props.image} />      
-        </div>
+class Card extends Component {
 
-        {/* <span onClick={() => props.removeCards(props.id)} className='remove'></span> */}
-    </div>
-    );
+    handleClick = () => {
+        this.props.onCharacterClick(this.props.index);
+    }
+
+    render() {
+        return (
+            <div className="card">
+                <img
+                    src={this.props.character.img}
+                    alt={this.props.character.name}
+                    className="pic"
+                    onClick={this.handleClick}/>
+            </div>
+        )
+    }
 }
 
-export default Cards;
+export default Card;
